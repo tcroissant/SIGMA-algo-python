@@ -23,10 +23,12 @@ project = 'gradient'
 copyright = '2018, dumas'
 author = 'dumas'
 
+with open("../VERSION", 'r') as fic:
+    read_version = fic.read()
 # The short X.Y version
-version = ''
+version = read_version
 # The full version, including alpha/beta/rc tags
-release = '0.1'
+release = read_version
 
 
 # -- General configuration ---------------------------------------------------
