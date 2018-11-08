@@ -14,7 +14,8 @@ setup(name='gradient', # define the name of the package
       author='Antoine Dumas',
       author_email='dumas@phimeca.com',
       packages=['gradient', 'gradient.example'], # namespace of the package
-      # define where the package "quantile" is located
+      # define where the package "gradient" is located
+      # and define subpackage example
       package_dir={'gradient':'src',
                    'gradient.example':'src/example'}, 
       test_suite='test', # subclass for unittest
